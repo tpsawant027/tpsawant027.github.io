@@ -2,29 +2,28 @@
     box-sizing: border-box;
 }
 body{
-    background-color: bisque;
+    background-color: blanchedalmond;
+    padding: 0px 10px;
 }
-header img{
-    display: block;
-    width: 50%;
-    margin: 0 auto;
+header{
+    border-bottom: 2px solid coral;
+}
+header h1{
+    font-size: 50px;
+    color: coral;
+    text-align: center;
 }
 footer{
-    width: 250px;
-    margin: 0 auto;
-}
-footer h2{
-    text-align: center;
-    color: orange;
-}
-a{
+    border-top: 2px solid coral;
     padding: 10px;
     margin: 5px;
-    background-color: orange;
-    border-radius: 5px;
+    text-align: center;
 }
-a:hover{
-    background-color: white;
-    border: 2px solid orange;
-
+footer a{
+    padding: 10px;
+    margin: 5px;
+}
+footer a img{
+    height: 32px;
+    width: 32px;
 }
